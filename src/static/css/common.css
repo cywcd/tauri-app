@@ -1,0 +1,42 @@
+body,html{
+  margin: 0;
+  padding: 0;
+}
+.titlebar {
+  height: 30px;
+  background: #329ea3;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.titlebar-button:hover {
+  background: #5bbec3;
+}
+.titlebar-title{
+  display: flex;
+ justify-content: center;
+}
+.titlebar-title-icon{
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+  box-shadow: 0px 4px 16px 0px rgba(153, 160, 175, 0.2);
+}
+.titlebar-title-txt{
+  display: inline-block;
+  color: #fff;
+}
